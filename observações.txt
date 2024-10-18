@@ -1,0 +1,4 @@
+Os arquivos do insomnia estão em uma pasta neste local desse arquivo, coloquei os 3 tipos disponíveis para importação.
+Os testes de cada rota criada estão dentro de um projeto junto com a API de agendamento de coleta de lixo
+O banco de dados é uma banco interno da aplicação, então ao iniciar a API o banco será criado automaticamente.
+Coloquei paginação na rota que traz todos os agendamento, fixando como padrão 10 registros por vez caso não seja passado os parâmetros da paginação.

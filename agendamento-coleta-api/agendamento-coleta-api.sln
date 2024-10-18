@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.10.35013.160
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "agendamento-coleta-api", "agendamento-coleta-api\agendamento-coleta-api.csproj", "{BA1F6084-F789-4A6C-ABB4-4F34C9565C22}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AgendamentoApi.Testes", "AgendamentoApi.Testes\AgendamentoApi.Testes.csproj", "{4E31120B-61C6-4C39-A144-95AB92CE54A4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BA1F6084-F789-4A6C-ABB4-4F34C9565C22}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BA1F6084-F789-4A6C-ABB4-4F34C9565C22}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BA1F6084-F789-4A6C-ABB4-4F34C9565C22}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BA1F6084-F789-4A6C-ABB4-4F34C9565C22}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4E31120B-61C6-4C39-A144-95AB92CE54A4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4E31120B-61C6-4C39-A144-95AB92CE54A4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4E31120B-61C6-4C39-A144-95AB92CE54A4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4E31120B-61C6-4C39-A144-95AB92CE54A4}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C7EBBF0C-9473-4B6F-AFC2-3025FE67299D}
+	EndGlobalSection
+EndGlobal

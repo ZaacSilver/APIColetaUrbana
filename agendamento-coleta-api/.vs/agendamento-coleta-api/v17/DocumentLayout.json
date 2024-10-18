@@ -1,0 +1,53 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\zaacs\\Downloads\\ProjetoAgendamentoColetaAPI\\agendamento-coleta-api\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{BA1F6084-F789-4A6C-ABB4-4F34C9565C22}|agendamento-coleta-api\\agendamento-coleta-api.csproj|c:\\users\\zaacs\\downloads\\projetoagendamentocoletaapi\\agendamento-coleta-api\\agendamento-coleta-api\\dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{BA1F6084-F789-4A6C-ABB4-4F34C9565C22}|agendamento-coleta-api\\agendamento-coleta-api.csproj|solutionrelative:agendamento-coleta-api\\dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\zaacs\\.nuget\\packages\\microsoft.visualstudio.azure.containers.tools.targets\\1.19.6\\build\\Container.targets||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Dockerfile",
+              "DocumentMoniker": "C:\\Users\\zaacs\\Downloads\\ProjetoAgendamentoColetaAPI\\agendamento-coleta-api\\agendamento-coleta-api\\Dockerfile",
+              "RelativeDocumentMoniker": "agendamento-coleta-api\\Dockerfile",
+              "ToolTip": "C:\\Users\\zaacs\\Downloads\\ProjetoAgendamentoColetaAPI\\agendamento-coleta-api\\agendamento-coleta-api\\Dockerfile",
+              "RelativeToolTip": "agendamento-coleta-api\\Dockerfile",
+              "ViewState": "AQIAABQAAAAAAAAAAAAAAAIAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2024-10-18T00:04:42.675Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Container.targets",
+              "DocumentMoniker": "C:\\Users\\zaacs\\.nuget\\packages\\microsoft.visualstudio.azure.containers.tools.targets\\1.19.6\\build\\Container.targets",
+              "RelativeDocumentMoniker": "..\\..\\..\\.nuget\\packages\\microsoft.visualstudio.azure.containers.tools.targets\\1.19.6\\build\\Container.targets",
+              "ToolTip": "C:\\Users\\zaacs\\.nuget\\packages\\microsoft.visualstudio.azure.containers.tools.targets\\1.19.6\\build\\Container.targets",
+              "RelativeToolTip": "..\\..\\..\\.nuget\\packages\\microsoft.visualstudio.azure.containers.tools.targets\\1.19.6\\build\\Container.targets",
+              "ViewState": "AQIAABIBAAAAAAAAAAAIwDUBAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003801|",
+              "WhenOpened": "2024-10-17T23:43:36.514Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

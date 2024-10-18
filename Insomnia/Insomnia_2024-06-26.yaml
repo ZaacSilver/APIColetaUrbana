@@ -1,0 +1,165 @@
+_type: export
+__export_format: 4
+__export_date: 2024-06-26T23:00:21.310Z
+__export_source: insomnia.desktop.app:v2023.5.8
+resources:
+  - _id: req_10442bd7a45240aa9a500e5bfd71f0bf
+    parentId: wrk_898c82beca754fbca790b63fe55b610a
+    modified: 1719442568454
+    created: 1719442344088
+    url: https://localhost:7137/api/Agendamento
+    name: Adiciona
+    description: ""
+    method: POST
+    body:
+      mimeType: application/json
+      text: |-
+        {
+          "observacoes": "Rua do prefeito",
+          "localizacao": "-15.797514, -47.891007",
+          "raioLocalizacao": 15
+        }
+    parameters: []
+    headers:
+      - name: Content-Type
+        value: application/json
+      - name: User-Agent
+        value: insomnia/2023.5.8
+    authentication: {}
+    metaSortKey: -1719442344088
+    isPrivate: false
+    settingStoreCookies: true
+    settingSendCookies: true
+    settingDisableRenderRequestBody: false
+    settingEncodeUrl: true
+    settingRebuildPath: true
+    settingFollowRedirects: global
+    _type: request
+  - _id: wrk_898c82beca754fbca790b63fe55b610a
+    parentId: null
+    modified: 1719442182185
+    created: 1719442182185
+    name: ListaRotas
+    description: ""
+    scope: collection
+    _type: workspace
+  - _id: req_10f9eaeb925641b5a613461d02af6906
+    parentId: wrk_898c82beca754fbca790b63fe55b610a
+    modified: 1719442337084
+    created: 1719442184825
+    url: https://localhost:7137/api/Agendamento
+    name: RetornaTodosComPaginacao
+    description: ""
+    method: GET
+    body: {}
+    parameters: []
+    headers:
+      - name: User-Agent
+        value: insomnia/2023.5.8
+    authentication: {}
+    metaSortKey: -1719442184825
+    isPrivate: false
+    settingStoreCookies: true
+    settingSendCookies: true
+    settingDisableRenderRequestBody: false
+    settingEncodeUrl: true
+    settingRebuildPath: true
+    settingFollowRedirects: global
+    _type: request
+  - _id: req_ad48d1adb0604ac08e31312c301fc3a5
+    parentId: wrk_898c82beca754fbca790b63fe55b610a
+    modified: 1719442607484
+    created: 1719442592385
+    url: https://localhost:7137/api/Agendamento/1
+    name: RetornaUmAgendamento
+    description: ""
+    method: GET
+    body: {}
+    parameters: []
+    headers:
+      - name: User-Agent
+        value: insomnia/2023.5.8
+    authentication: {}
+    metaSortKey: -1719183884539.5
+    isPrivate: false
+    settingStoreCookies: true
+    settingSendCookies: true
+    settingDisableRenderRequestBody: false
+    settingEncodeUrl: true
+    settingRebuildPath: true
+    settingFollowRedirects: global
+    _type: request
+  - _id: req_9748ee259e5f46d0ae15faf249fabc1a
+    parentId: wrk_898c82beca754fbca790b63fe55b610a
+    modified: 1719442692699
+    created: 1719442688361
+    url: https://localhost:7137/api/Agendamento/1
+    name: excluiUmAgendamento
+    description: ""
+    method: DELETE
+    body: {}
+    parameters: []
+    headers:
+      - name: User-Agent
+        value: insomnia/2023.5.8
+    authentication: {}
+    metaSortKey: -1719119309468.125
+    isPrivate: false
+    settingStoreCookies: true
+    settingSendCookies: true
+    settingDisableRenderRequestBody: false
+    settingEncodeUrl: true
+    settingRebuildPath: true
+    settingFollowRedirects: global
+    _type: request
+  - _id: req_d3297bcbfb69448393bedef1ec4c406a
+    parentId: wrk_898c82beca754fbca790b63fe55b610a
+    modified: 1719442661501
+    created: 1719442637905
+    url: https://localhost:7137/api/Agendamento/1
+    name: AtualizaAgendamento
+    description: ""
+    method: PUT
+    body:
+      mimeType: application/json
+      text: |-
+        {
+        	"id": 1,
+        	"observacoes": "Rua do presidente",
+        	"localizacao": "-15.797514, -47.891007",
+        	"raioLocalizacao": 15
+        }
+    parameters: []
+    headers:
+      - name: Content-Type
+        value: application/json
+      - name: User-Agent
+        value: insomnia/2023.5.8
+    authentication: {}
+    metaSortKey: -1719054734396.75
+    isPrivate: false
+    settingStoreCookies: true
+    settingSendCookies: true
+    settingDisableRenderRequestBody: false
+    settingEncodeUrl: true
+    settingRebuildPath: true
+    settingFollowRedirects: global
+    _type: request
+  - _id: env_ae5b0b1d1354f0631023be378f9a9e860f561112
+    parentId: wrk_898c82beca754fbca790b63fe55b610a
+    modified: 1719442182194
+    created: 1719442182194
+    name: Base Environment
+    data: {}
+    dataPropertyOrder: null
+    color: null
+    isPrivate: false
+    metaSortKey: 1719442182194
+    _type: environment
+  - _id: jar_ae5b0b1d1354f0631023be378f9a9e860f561112
+    parentId: wrk_898c82beca754fbca790b63fe55b610a
+    modified: 1719442182197
+    created: 1719442182197
+    name: Default Jar
+    cookies: []
+    _type: cookie_jar

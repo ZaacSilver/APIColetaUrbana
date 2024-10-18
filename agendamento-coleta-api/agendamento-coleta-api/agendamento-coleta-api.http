@@ -1,0 +1,6 @@
+@agendamento_coleta_api_HostAddress = http://localhost:5135
+
+GET {{agendamento_coleta_api_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

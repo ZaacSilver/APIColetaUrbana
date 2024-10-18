@@ -1,0 +1,10 @@
+{
+  "version": "0.2.1",
+  "tasks": [
+    {
+      "taskLabel": "task-Dockerfile",
+      "appliesTo": "agendamento-coleta-api/agendamento-coleta-api/Dockerfile",
+      "type": "launch"
+    }
+  ]
+}
