@@ -15,7 +15,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("agendamento-coleta-api")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+5218301e109634024fb43e72b20853b3ffae5031")]
 [assembly: System.Reflection.AssemblyProductAttribute("agendamento-coleta-api")]
 [assembly: System.Reflection.AssemblyTitleAttribute("agendamento-coleta-api")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\agendamento-coleta-api.props" />
+</Project>
